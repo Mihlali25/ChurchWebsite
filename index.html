@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiness Union Church Cape Town</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="HUC LOGO.jpg" alt="Holiness Union Church Cape Town Logo" class="logo">
+        </div>
+        <h1>Holiness Union Church Cape Town</h1>
+        <p>"Walking in God's Grace"</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="home" class="hero">
+            <h2>Welcome to Holiness Union Church</h2>
+            <p>A place of worship, fellowship, and spiritual growth in the heart of Cape Town.</p>
+        </section>
+        
+        <section id="services" class="services">
+            <h2 class="section-title">Church Service Times</h2>
+            <div class="service-times">
+                <div class="service-card">
+                    <h3>Sunday Services</h3>
+                    <p><strong>Main Service:</strong> 10:00 AM - 12:00 PM</p>
+                </div>
+                <div class="service-card">
+                    <h3>Weekly Services</h3>
+                    <p><strong>Spin-Off Prayers:</strong> Mondays & Tuesdays 05:00 AM - 05:30 AM</p>
+                    <p><strong>Prayer Meeting:</strong> Thursdays 07:00 PM - 08:00 PM</p>
+
+                </div>
+            </div>
+        </section>
+ 
+        <section id="events" class="events">
+            <h2 class="section-title">Upcoming Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('event1.jpg');"></div>
+                    <div class="event-details">
+                        <h3>Youth Service</h3>
+                        <p class="event-date">June 15, 2025</p>
+                        <p>Join us for the youth service as we will be dancing and "Thomoyi" at the house of the Lord.</p>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image" style="background-image: url('event3.jpg');"></div>
+                    <div class="event-details">
+                        <h3>Worship Night</h3>
+                        <p class="event-date">13 June, 2025</p>
+                        <p>A special Worship Night For All Students Around Cape Town.</p>
+                        <p>Venue: University of The Western Cape, Res Life Centre.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <section id="about" class="about">
+            <h2 class="section-title">About Our Church</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Holiness Union Church Cape Town was founded in 2021 with a vision to spread the gospel and serve our community. We are a Bible-believing, Christ-centered church committed to spiritual growth and community transformation.</p>
+                    <p>Our mission is to lead people into a growing relationship with Jesus Christ through worship, discipleship, and service. We welcome people from all walks of life to experience God's love and grace.</p>
+                    <p>At Holiness Union Church, we believe in the power of prayer, the authority of Scripture, and the importance of Christian fellowship. Join us as we walk together in God's grace.</p>
+                </div>
+                <div class="about-image" style="background-image: url('Members.jpg');"></div>
+            </div>
+        </section>
+    
+        <section id="location" class="location">
+            <h2 class="section-title">Our Location</h2>
+            <p>We are conveniently located at:</p>
+            <address>
+                <strong>Holiness Union Church Cape Town</strong><br>
+                7 Biccard Street<br>
+                Durbanville 7550<br>
+                Cape Town, South Africa
+            </address>
+            <div class="location-map" id="churchMap"></div>
+        </section>
+
+        <section id="prayer" class="prayer-request">
+            <h2 class="section-title">Submit Prayer Request</h2>
+            <form id="prayerForm" class="prayer-form">
+                <div class="form-group">
+                    <label for="name">Your Name (Optional):</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email (Optional):</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="request">Prayer Request *</label>
+                    <textarea id="request" name="request" required rows="5"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="anonymous" id="anonymous">
+                        Submit anonymously
+                    </label>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Prayer Request</button>
+                
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </section>
+        
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <p>We'd love to hear from you!</p>
+            <p><strong>Phone:</strong> +27 67 202 1649</p>
+            <p><strong>Email:</strong> info@holinessunioncapetown.co.za</p>
+            <p><strong>Office Hours:</strong> Monday - Sunday</p>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#events">Events</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/HUC_Cape Town" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/holinessunion_ct" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    <a href="https://wa.me/27672021649?text=Hello%20Holiness%20Union%20Church" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            </div>
+            <div class="footer-section">
+                <h3>Visit Us</h3>
+                <p>7 Biccard Street<br>Durbanville 7550<br>Cape Town</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="currentYear"></span> Holiness Union Church Cape Town. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
